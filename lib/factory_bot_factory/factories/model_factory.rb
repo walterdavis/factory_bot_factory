@@ -1,3 +1,5 @@
+require 'factory_bot_factory/factories/base_factory'
+
 module FactoryBotFactory
   class ModelFactory < BaseFactory
     def build_factory(name, value, level, _options = {})
